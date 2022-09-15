@@ -135,6 +135,7 @@ img {
         width: 769px;
         margin: auto;
     }
+
 }
 
 /* mobile */
@@ -187,4 +188,16 @@ img {
     .why-us img {
         margin-bottom: 3rem;
     }
+}
+
+/* bonus */
+@media screen and (min-width: 1100px) {
+    .container{
+        width: 1160px;
+    }
+
+    h1{
+        color: red;
+    }
+    
 }
