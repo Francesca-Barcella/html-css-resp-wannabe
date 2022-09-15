@@ -142,6 +142,10 @@ img {
         width: 480px;
     }
 
+    .row{
+        display: block;
+    }
+
     .lessons .col {
         width: 100%;
     }
@@ -155,9 +159,18 @@ img {
     .why-us .col-left {
         width: 100%;
     }
-
+    
     .why-us .col-right {
         width: 100%;
     }
+    
+    .why-us{
+        text-align: left;
+    }
+
+    .why-us img{
+        margin-bottom: 3rem;
+    }
+
 
 }
