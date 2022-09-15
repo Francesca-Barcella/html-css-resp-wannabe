@@ -140,13 +140,18 @@ img {
 @media screen and (max-width: 480px) {
     .container {
         width: 480px;
+        margin: auto;
     }
 
     .row {
         display: block;
     }
 
+    .card {
+        margin-top: 3rem;
+    }
 
+    /* LESSONS SECTION */
     .lessons .col {
         width: 100%;
     }
@@ -156,15 +161,14 @@ img {
         margin-bottom: 1rem;
     }
 
-    .card {
-        margin-top: 3rem;
-    }
-
     /* STEPS SECTION */
     .steps img {
         height: 300px;
     }
 
+    .steps .col {
+        width: 100%;
+    }
 
     /* WHY US SECTION */
     .why-us .col-left {
@@ -182,5 +186,4 @@ img {
     .why-us img {
         margin-bottom: 3rem;
     }
-
 }
