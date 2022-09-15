@@ -133,6 +133,7 @@ img {
 @media screen and (max-width: 769px) {
     .container {
         width: 769px;
+        margin: auto;
     }
 }
 
