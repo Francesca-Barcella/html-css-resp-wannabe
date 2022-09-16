@@ -189,13 +189,3 @@ img {
         margin-bottom: 3rem;
     }
 }
-
-/* bonus */
-@media screen and (min-width: 1160px) {
-    .container{
-        width: 1160px;
-        overflow: scroll;
-    }
-
-    
-}
