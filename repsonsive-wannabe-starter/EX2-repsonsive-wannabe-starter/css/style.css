@@ -131,7 +131,7 @@ img {
 
 /* tablet */
 @media screen and (max-width: 769px) {
-    .container {
+    body, .container {
         width: 769px;
         margin: auto;
     }
@@ -140,7 +140,8 @@ img {
 
 /* mobile */
 @media screen and (max-width: 480px) {
-    .container {
+    
+    body, .container{
         width: 480px;
         margin: auto;
     }
@@ -192,4 +193,5 @@ img {
     .why-us img {
         margin-bottom: 3rem;
     }
+
 }
