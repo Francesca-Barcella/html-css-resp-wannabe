@@ -128,9 +128,16 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+/* bonus */
+@media screen and (max-width: 1160px) {
+    .container{
+        width: 1160px;
+    }   
+}
 
-/* tablet */
+ /* tablet */
 @media screen and (max-width: 769px) {
+    body,
     .container {
         width: 769px;
         margin: auto;
@@ -139,8 +146,9 @@ img {
 
 /* mobile */
 @media screen and (max-width: 480px) {
+    body,
     .container {
-        width: 480px;
+        width: 100%;
         margin: auto;
     }
 
@@ -172,6 +180,15 @@ img {
     }
 
     /* WHY US SECTION */
+    .why-us {
+        margin: -3rem 0;
+    }
+
+    .why-us .container {
+        background-color: #222;
+        padding: 3rem 0;
+    }
+
     .why-us .col-left {
         width: 100%;
     }
@@ -183,18 +200,5 @@ img {
     .why-us {
         text-align: left;
     }
-
-    .why-us img {
-        margin-bottom: 3rem;
-    }
 }
 
-/* bonus */
-@media screen and (min-width: 1160px) {
-    .container{
-        width: 1160px;
-        overflow: scroll;
-    }
-
-    
-}
