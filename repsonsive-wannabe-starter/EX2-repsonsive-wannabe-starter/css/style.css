@@ -131,18 +131,15 @@ img {
 
 /* tablet */
 @media screen and (max-width: 769px) {
-
     body,
     .container {
         width: 769px;
         margin: auto;
     }
-
 }
 
 /* mobile */
 @media screen and (max-width: 480px) {
-
     body,
     .container {
         width: 480px;
